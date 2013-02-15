@@ -1,0 +1,85 @@
+Script started on Thursday 07 February 2013 01:37:12 PM IST
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ /[Kscr
+screendump    script/       scriptreplay  
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ script/generate site gii[K[Koogle
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+      create  lib/sites/google.rb
+      create  lib/sites/google
+      create  lib/sites/google/flows
+      create  lib/sites/google/pages
+      create  lib/sites/google/pages/partials
+      create  spec/isolation/google
+      create  spec/support/google
+      create  config/google.yml
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ script/generate site google[1P google[1P google[1P google[1P googlep googlea googleg googlee google[C googleh googleo googlem googlee google[C[C[C[C[C[C[C
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+      create  lib/sites/google/pages/home_page.rb
+      create  spec/isolation/google/home_page_spec.rb
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ script/generate page home google[1P google[1P google[1P google[1P googles googlee googlea googler googlec googleh google_ googler googlee googles googleu googlel googlet googles google
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+NOTE: Gem::SourceIndex#each is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#each called from /home/raj/.rvm/gems/ruby-1.9.3-p362/gems/rubigen-1.5.7/lib/rubigen/lookup.rb:284.
+      create  lib/sites/google/pages/search_results_page.rb
+      create  spec/isolation/google/search_results_page_spec.rb
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ mine .
+[  14235]   WARN - ugins.ruby.tasks.rake.RakeUtil - rake aborted!
+You have already activated rake 10.0.3, but your Gemfile requires rake 0.9.6. Using bundle exec may solve this.
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/runtime.rb:31:in `block in setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/runtime.rb:17:in `setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler.rb:116:in `setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+/home/raj/ruby_projects/google_taza/Rakefile:4:in `<top (required)>'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/rake_module.rb:25:in `load'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/rake_module.rb:25:in `load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:583:in `raw_load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:89:in `block in load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:160:in `standard_exception_handling'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:88:in `load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:72:in `block in run'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:160:in `standard_exception_handling'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:70:in `run'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/bin/rake:33:in `<top (required)>'
+/home/raj/.rvm/gems/ruby-1.9.3-p362/bin/rake:19:in `load'
+/home/raj/.rvm/gems/ruby-1.9.3-p362/bin/rake:19:in `<main>': Get available rake tasks 
+[  14235]   WARN - ugins.ruby.tasks.rake.RakeUtil - rake aborted!
+You have already activated rake 10.0.3, but your Gemfile requires rake 0.9.6. Using bundle exec may solve this.
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/runtime.rb:31:in `block in setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/runtime.rb:17:in `setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler.rb:116:in `setup'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/bundler-1.2.3/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+/home/raj/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+/home/raj/ruby_projects/google_taza/Rakefile:4:in `<top (required)>'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/rake_module.rb:25:in `load'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/rake_module.rb:25:in `load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:583:in `raw_load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:89:in `block in load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:160:in `standard_exception_handling'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:88:in `load_rakefile'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:72:in `block in run'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:160:in `standard_exception_handling'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/lib/rake/application.rb:70:in `run'
+/home/raj/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3/bin/rake:33:in `<top (required)>'
+/home/raj/.rvm/gems/ruby-1.9.3-p362/bin/rake:19:in `load'
+/home/raj/.rvm/gems/ruby-1.9.3-p362/bin/rake:19:in `<main>': Get available rake tasks 
+MEvent. CASE!
+MEvent. CASE!
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ [K]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ 
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ 
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ 
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ 
+]0;raj@Shaktiman: ~/ruby_projects/google_tazaraj@Shaktiman:~/ruby_projects/google_taza$ exit
+exit
+
+Script done on Thursday 07 February 2013 02:46:47 PM IST

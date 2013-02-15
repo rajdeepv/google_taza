@@ -1,0 +1,6 @@
+---
+prod:
+    :url: http://www.google.com
+
+india:
+    :url: http://www.google.co.in
