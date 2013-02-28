@@ -6,4 +6,6 @@ When /^I search$/ do
 end
 Then /^I should see all results revelent to my search$/ do
   @google.search_results_page.all_results_has?("TAZA").should be_true
+  sleep 10
+  @google.browser.close
 end

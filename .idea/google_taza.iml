@@ -6,22 +6,22 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Selenium (v1.1.14, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.1.10, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.3.6, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.4, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.3.8, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonwatir (v4.0.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.2.1, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.1.3, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.1.5, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.4.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="firewatir (v1.9.4, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.11.5, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hoe (v3.4.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.5, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="libwebsocket (v0.1.5, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mocha (v0.9.12, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.2.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel (v0.6.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel_tests (v0.10.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v0.9.6, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec (v2.12.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.12.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
@@ -30,10 +30,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rubigen (v1.5.7, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="s4t-utils (v1.0.4, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.27.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="taza (v0.9.1.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.30.0, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="taza (v0.9.1.2@d876f4, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="user-choices (v1.1.6.1, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="watir-webdriver (v0.6.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="websocket (v1.0.7, RVM: ruby-1.9.3-p362) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xml-simple (v1.1.2, RVM: ruby-1.9.3-p362) [gem]" level="application" />
   </component>
 </module>

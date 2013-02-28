@@ -11,3 +11,6 @@ Taza::Rake::Tasks.new do |t|
                 "--format p" ,
                 "--format FailingExamplesFormatter --out #{file_hole}/failing_examples.txt"]
 end
+
+
+begin; require 'parallel_tests/tasks'; rescue LoadError; end

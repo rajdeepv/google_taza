@@ -1,0 +1,4 @@
+25.401821:features/search2.feature:2
+19.668798:features/search.feature:2
+0.029451:./spec/isolation/google/search_results_page_spec.rb:5
+0.012595:./spec/isolation/google/home_page_spec.rb:5
