@@ -3,10 +3,8 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'taza/tasks'
-
 require 'cukeforker'
-require 'cukeforker-webdriver'
-require 'selenium-webdriver'
+require_relative 'features/support/monkey.rb'
 
 Taza::Rake::Tasks.new do |t|
   file_hole = FileUtils.mkdir_p "artifacts/#{Time.now.to_i}"
@@ -27,5 +25,14 @@ task :grid_run_all_google do
       CukeForker::Scenarios.tagged(%W[@go] ),
       standard_grid_options)
 end
+
+task :p do
+  CukeForker::Runner.run(
+      CukeForker::Scenarios.tagged(%W[@go]),
+      :max=>4,
+      :out => "log/html",
+  )
+end
+
 
 begin; require 'parallel_tests/tasks'; rescue LoadError; end

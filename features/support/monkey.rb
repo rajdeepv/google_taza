@@ -1,3 +1,5 @@
+require "cukeforker"
+
 module CukeForker
   class LoggingListener < AbstractListener
     def on_run_finished(failed)
